@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/sheet";
 import { useState } from "react";
 
-import { ChevronRight, Menu, Package } from "lucide-react";
+import { ChevronRight, Menu, Ribbon } from "lucide-react";
 import { Button, buttonVariants } from "./ui/button";
 
 interface RouteProps {
@@ -45,9 +45,9 @@ export const Navbar = () => {
                         <a
                             rel="noreferrer noopener"
                             href="/"
-                            className="ml-2 font-bold text-xl flex items-center gap-2"
+                            className="ml-2 font-bold font-mono text-xl flex items-center gap-2"
                         >
-                            <Package />
+                            <Ribbon className="text-primary" />
                             Kayques
                         </a>
                     </NavigationMenuItem>
