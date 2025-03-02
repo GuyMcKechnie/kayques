@@ -12,7 +12,7 @@ export const About = () => {
                                 <span className="bg-gradient-to-b from-accent to-primary text-transparent bg-clip-text">
                                     About{" "}
                                 </span>
-                                Keyques
+                                Kayques
                             </h2>
                             <p className="text-xl text-muted-foreground mt-4">
                                 Finding the perfect gift shouldn’t be stressful.
