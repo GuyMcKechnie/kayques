@@ -1,40 +1,42 @@
+import "./App.css";
 import { About } from "./components/About";
 import { Cta } from "./components/Cta";
-import { FAQ } from "./components/FAQ";
-import { Features } from "./components/Features";
+import { CustomPackages } from "./components/CustomPackages";
+import { Pricing } from "./components/DefaultPackages";
+import { EasterPackages } from "./components/EasterPackages";
+import { ExamPackages } from "./components/ExamPackages";
+import { FathersPackages } from "./components/FathersPackages";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { HowItWorks } from "./components/HowItWorks";
+import { MothersPackages } from "./components/MothersPackages";
 import { Navbar } from "./components/Navbar";
-import { Newsletter } from "./components/Newsletter";
-import { Pricing } from "./components/Pricing";
 import { ScrollToTop } from "./components/ScrollToTop";
+import { SelfCarePackages } from "./components/SelfCarePackages";
 import { Services } from "./components/Services";
-import { Sponsors } from "./components/Sponsors";
-import { Team } from "./components/Team";
-import { Testimonials } from "./components/Testimonials";
-import "./App.css";
+import { ValentinePackages } from "./components/ValentinePackages";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <Sponsors />
-      <About />
-      <HowItWorks />
-      <Features />
-      <Services />
-      <Cta />
-      <Testimonials />
-      <Team />
-      <Pricing />
-      <Newsletter />
-      <FAQ />
-      <Footer />
-      <ScrollToTop />
-    </>
-  );
+    return (
+        <>
+            <Navbar />
+            <Hero />
+            <About />
+            <HowItWorks />
+            <Services />
+            <Cta />
+            <Pricing />
+            <ValentinePackages />
+            <ExamPackages />
+            <SelfCarePackages />
+            <FathersPackages />
+            <MothersPackages />
+            <EasterPackages />
+            <CustomPackages />
+            <Footer />
+            <ScrollToTop />
+        </>
+    );
 }
 
 export default App;
