@@ -23,11 +23,15 @@ export const Cta = () => {
                     </p>
                 </div>
 
-                <div className="space-y-4 lg:col-start-2">
-                    <Button className="w-full md:mr-4 md:w-auto">
-                        <a href="https://wa.me/qr/JPGEATOPYQMIH1">
-                            Get Started
-                        </a>
+                <div className="space-x-4 lg:col-start-2">
+                    <Button
+                        className="w-fit"
+                        onClick={() =>
+                            (window.location.href =
+                                "https://wa.me/qr/JPGEATOPYQMIH1")
+                        }
+                    >
+                        Get Started
                         <ChevronRight className="ml-2 w-5 h-5" />
                     </Button>
                     <Button variant="outline" className="w-full md:w-auto">

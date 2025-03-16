@@ -22,10 +22,14 @@ export const Hero = () => {
                 </p>
 
                 <div className="space-y-4 md:space-y-0 md:space-x-4">
-                    <Button className="w-full md:w-1/3">
-                        <a href="https://wa.me/qr/JPGEATOPYQMIH1">
-                            Get Started
-                        </a>
+                    <Button
+                        className="w-full md:w-1/3"
+                        onClick={() =>
+                            (window.location.href =
+                                "https://wa.me/qr/JPGEATOPYQMIH1")
+                        }
+                    >
+                        Get Started
                         <ChevronRight className="ml-2 w-5 h-5" />
                     </Button>
 

@@ -8,7 +8,7 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
-import { Check } from "lucide-react";
+import { Check, ChevronRight } from "lucide-react";
 
 enum PopularPlanType {
     NO = 0,
@@ -83,7 +83,7 @@ export const Pricing = () => {
                 Packages Priced to
                 <span className="bg-gradient-to-b from-primary to-accent text-transparent bg-clip-text">
                     {" "}
-                    Go{" "}
+                    Go
                 </span>
             </h2>
             <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
@@ -124,10 +124,14 @@ export const Pricing = () => {
                         </CardHeader>
 
                         <CardContent>
-                            <Button className="w-full">
-                                <a href="https://wa.me/qr/JPGEATOPYQMIH1">
-                                    {pricing.buttonText}
-                                </a>
+                            <Button
+                                className="w-full"
+                                onClick={() =>
+                                    (window.location.href =
+                                        "https://wa.me/qr/JPGEATOPYQMIH1")
+                                }
+                            >
+                                Buy Now
                             </Button>
                         </CardContent>
 

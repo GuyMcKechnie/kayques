@@ -86,10 +86,14 @@ export const Navbar = () => {
                                             </a>
                                         )
                                     )}
-                                    <Button className="w-full md:w-1/3">
-                                        <a href="https://wa.me/qr/JPGEATOPYQMIH1">
-                                            Get Started
-                                        </a>
+                                    <Button
+                                        className="w-full md:w-1/3"
+                                        onClick={() =>
+                                            (window.location.href =
+                                                "https://wa.me/qr/JPGEATOPYQMIH1")
+                                        }
+                                    >
+                                        Get Started
                                         <ChevronRight className="ml-2 w-5 h-5" />
                                     </Button>
                                 </nav>

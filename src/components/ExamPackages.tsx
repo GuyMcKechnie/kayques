@@ -120,10 +120,14 @@ export const ExamPackages = () => {
                         </CardHeader>
 
                         <CardContent>
-                            <Button className="w-full">
-                                <a href="https://wa.me/qr/JPGEATOPYQMIH1">
-                                    {pricing.buttonText}
-                                </a>
+                            <Button
+                                className="w-full"
+                                onClick={() =>
+                                    (window.location.href =
+                                        "https://wa.me/qr/JPGEATOPYQMIH1")
+                                }
+                            >
+                                Buy Now
                             </Button>
                         </CardContent>
 

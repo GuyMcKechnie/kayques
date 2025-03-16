@@ -7,7 +7,7 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
-import { Circle } from "lucide-react";
+import { ChevronRight, Circle } from "lucide-react";
 import { GiftIcon } from "./Icons";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 
@@ -73,7 +73,16 @@ export const HeroCards = () => {
                 </CardHeader>
 
                 <CardContent>
-                    <Button className="w-full">Buy Now</Button>
+                    <Button
+                        className="w-full"
+                        onClick={() =>
+                            (window.location.href =
+                                "https://wa.me/qr/JPGEATOPYQMIH1")
+                        }
+                    >
+                        Buy Now
+                        <ChevronRight className="ml-2 w-5 h-5" />
+                    </Button>
                 </CardContent>
 
                 <hr className="w-4/5 m-auto mb-4" />
