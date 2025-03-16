@@ -8,7 +8,7 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
-import { Check, ChevronRight } from "lucide-react";
+import { Check } from "lucide-react";
 
 enum PopularPlanType {
     NO = 0,
